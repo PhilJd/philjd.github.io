@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+body {
+    font-family: Liberation Sans, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    height: 100%;
+  }
+
+main {
+    height: 90%;
+    max-width: 80ch;
+    padding: 1ch;
+    margin: auto;
+}
+
+nav {
+  background: rgb(252, 252, 252);
+  border-bottom: 0.1ch solid #bbbbbb;
+}
+
+.navbar {
+  background: rgb(252, 252, 252);
+  height: 5ch;
+  display: flex;
+  align-items: center;
+  max-width: 80ch;
+  margin: auto;
+}
+
+.navitem {
+    padding: 1ch;
+    flex-grow: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+h1 {
+  margin-bottom: .5rem;
+}
+hr {
+  margin-top: 2rem;
+  border: 0.1ch solid #dddddd
+}
+
